@@ -241,7 +241,7 @@ class App extends Component {
 
               <div className="row mt-3">
                 <div className="col-sm-12 col-md-12">
-                  <TaskList tasks={tasks}
+                  <TaskList
                     onUpdateStatus={this.onUpdateStatus}
                     onDelete={this.onDelete}
                     onUpdate={this.onUpdate}
